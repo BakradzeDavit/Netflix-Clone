@@ -698,4 +698,18 @@ body {
   .favorite-movies-header h2 {
     font-size: 1.8rem;
   }
+} 
+.splide__slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.splide__track {
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .movie-section {
+    padding: 1rem 0.5rem;
+  }
 }
