@@ -17,30 +17,30 @@ function App({ movies, favoriteMovies }) {
     gap: '1rem',
     breakpoints: {
       1200: {
-        perPage: 6,
-        perMove: 2,
-      },
-      1024: {
         perPage: 5,
         perMove: 2,
       },
+      1024: {
+        perPage: 4,
+        perMove: 2,
+      },
       768: {
-        perPage: 3,
+        perPage: 3.5,
         perMove: 1,
         gap: '0.5rem',
       },
       640: {
-        perPage: 2.5,
+        perPage: 3,
         perMove: 1,
         gap: '0.5rem',
       },
       480: {
-        perPage: 2,
+        perPage: 3,
         perMove: 1,
         gap: '0.3rem',
       },
       320: {
-        perPage: 1.5,
+        perPage: 2,
         perMove: 1,
         gap: '0.3rem',
       }
